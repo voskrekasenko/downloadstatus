@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.app-dir {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-end;
+	position: relative;
+	width: 100px;
+	height: 200px;
+	border-radius: 200px;
+	background-color: #fff;
+	border: solid 10px #c7efd2;
+	overflow: hidden;
+	.colored {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 0;
+		background-color: #64886d;
+		transition: height ease-in-out 1500ms;
+	}
+}
